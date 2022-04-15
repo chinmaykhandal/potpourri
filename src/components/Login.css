@@ -1,0 +1,31 @@
+
+.heading{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+.login__page{
+
+    margin-top: 6%;
+    border: 3px solid black;
+    font-family: 'Montserrat', sans-serif;
+    height: 360px;
+    width: 480px;
+    text-align: center;
+    background-image: url("../images/coffee potpourri.jpg");
+    background-size: 250px 200px;
+}
+.signup__page{
+    margin-top: 6%;
+    margin-left: 20%;
+    border: 3px solid black;
+    font-family: 'Montserrat', sans-serif;
+    height: 360px;
+    width: 480px;
+    text-align: center;
+    background-image: url("../images/coffee potpourri.jpg");
+    background-size: 250px 200px;
+}
+.forms{
+    display: flex;
+}

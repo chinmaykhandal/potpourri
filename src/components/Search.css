@@ -1,0 +1,31 @@
+.search-bar{
+    margin-top: 3%;
+}
+.search{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.filters{
+    margin-top: 5%;
+    margin-left: 0%;
+    width: 200px;
+    height: 460px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.text{
+    margin-top: 15%;
+    justify-content: space-between;
+    background-color: #FFD686;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+.time-filter{
+    margin-top: 10%;
+}
+.cards{
+    display: flex;
+}

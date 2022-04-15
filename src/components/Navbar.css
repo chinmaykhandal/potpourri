@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo{
+  color: white;
+  font-family: 'Comfortaa', cursive;
+}
+.navbar{
+  justify-content: space-between;
+  height: 55px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.container{
+  padding-inline: 10vw;
+}
+a{
+  text-decoration: none;
+  color: #FFD686;
+}
+.btn{
+  background-color: #FFD686;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+}

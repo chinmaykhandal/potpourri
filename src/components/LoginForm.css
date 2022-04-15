@@ -1,0 +1,51 @@
+form{
+    margin-top: 5%;
+    align-items: center;
+    margin-left: 10%;
+}
+.new-expense__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  .new-expense__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+
+  .button {
+    margin-top: 5%;
+    padding: 15px 25px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #FFD686;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px #FFD686;
+  }
+  .pwd{
+      margin-top: 5%;
+  }
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }

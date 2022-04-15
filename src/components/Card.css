@@ -1,0 +1,82 @@
+.card-container {
+  width: 260px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.5s;
+  animation: ease-in-out;
+  border-radius: 10px;
+}
+
+.image-container img {
+  overflow: hidden;
+  object-fit: cover;
+  height: 180px;
+  cursor: pointer;
+}
+.text-container {
+  height: 140px;
+  width: 100%;
+}
+
+.card-title {
+  margin-left: 10%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ingredients {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.card__recipe {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 85px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: -10%;
+}
+
+.card__tags {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 150px;
+}
+
+.card__tag {
+  font-size: 14px;
+  background: #FFD686;
+  width: auto;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.other-details {
+  flex: 0.2;
+  display: flex;
+  height: 200px;
+  border-left: 3px solid green;
+  height: 200px;
+  background-color: #fffbf2;
+}
+.other-details{
+  display: flex;
+}
