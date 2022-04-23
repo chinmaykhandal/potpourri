@@ -1,0 +1,72 @@
+*{
+  font-family: 'Montserrat', sans-serif;}
+.col {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col1{
+    margin-top: 1%;
+}
+.col2{
+  background-image: url("../images/PotPourriMain.png");
+  height: 650px;
+  background-size: cover;
+}
+.origin{
+  margin-top: 5%;
+}
+.difficulty{
+  display: inline;
+}
+.btn{
+  background-color: #FFD686;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  border: 1px solid #FFD686;
+  border-radius: 5px;
+  margin-top: 25%;
+}
+.body-txt{
+  height: 320px;
+  width: 720px;
+  background-color: white;
+  margin-top: 15%;
+}
+.publish-btn{
+  background-color: #FFD686;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  border: 1px solid #FFD686;
+  border-radius: 5px;
+}
+.body-txt::placeholder{
+  font-size: large;
+  margin-top: 0%;
+}
+.react-tag-input {
+  background: white;
+  color: #333;
+}
+.react-tag-input__input {
+  background: transparent;
+  color: #333;
+  width: 100%;
+  height: 200%;
+}
+.react-tag-input__tag {
+  background: #e1e1e1;
+}
+.react-tag-input__tag__remove {
+  background: #d4d4d4;
+}
+.react-tag-input__tag__remove:before, .react-tag-input__tag__remove:after {
+  background: #333; /* X icon in remove button */
+}

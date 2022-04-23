@@ -1,5 +1,7 @@
 import Card from "./Card";
-import CardImg from "../images/food potpourri.jpg"
+import CardImg from "../images/food potpourri.jpg";
+import {Route, BrowserRouter as Router, Switch, Link} from 'react-router-dom';
+
 import "./Main.css";
 function Main() {
     return (
@@ -9,8 +11,8 @@ function Main() {
             <br />Top posts on Potpourri ...
         </p>
         <br />
-        <a href="#!" className="upload-btn">Upload</a>
-        <a href="#!" className="see-more-btn">See More> </a>
+        <Link to="/upload"><a href="#!" className="upload-btn">Upload</a></Link>
+        <Link to="/search"><a href="#!" className="see-more-btn">See More => </a></Link>
         <br /> <br />
         <div className="cards">
         <Card 

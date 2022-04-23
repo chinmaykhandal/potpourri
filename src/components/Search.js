@@ -11,25 +11,11 @@ function Search() {
           placeholder="Search by recipe name, ingredient or country"
         />
       </div>
-      <div className="filters">
-        <div className="text">Apply Filters</div>
-        <p class="time-filter">
-          <label>
-            <input type="radio" name="filter" value="*" checked="checked" />{" "}
-            30 mins
-          </label>
-          <label>
-            <input type="radio" name="filter" value=".metal" /> 1 hr 
-          </label>
-          <label>
-            <input type="radio" name="filter" value=".transition" /> 2hrs 
-          </label>
-          <label>
-            <input type="radio" name="filter" value=":not(.transition)" /> 2hrs 
-          </label>
-        </p>
+    <div className="row">
+      <div className="filter-box column column1">
+        
       </div>
-      <div className="cards">
+      <div className="cards column column2">
       <Card 
             img={CardImg}
             title="Recipe Name"
@@ -50,6 +36,8 @@ function Search() {
           and only contains 5 ingredients!"
         />
         </div>
+    </div>
+      
     </div>
   );
 }

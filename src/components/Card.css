@@ -6,7 +6,12 @@
   animation: ease-in-out;
   border-radius: 10px;
 }
-
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.rating{
+  margin-top: 15%;
+}
 .image-container img {
   overflow: hidden;
   object-fit: cover;
@@ -40,7 +45,7 @@
 }
 
 .card__recipe {
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -79,4 +84,11 @@
 }
 .other-details{
   display: flex;
+}
+.card{
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
 }

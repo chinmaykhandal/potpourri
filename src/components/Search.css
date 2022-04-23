@@ -7,14 +7,6 @@
     border: 1px solid black;
     border-radius: 10px;
 }
-.filters{
-    margin-top: 5%;
-    margin-left: 0%;
-    width: 200px;
-    height: 460px;
-    border: 1px solid black;
-    border-radius: 5px;
-}
 .text{
     margin-top: 15%;
     justify-content: space-between;
@@ -28,4 +20,19 @@
 }
 .cards{
     display: flex;
+}
+.column{
+    float: left;
+    width: 80%;
+    text-align: center;
+}
+.column1{
+    border: 1px solid black;
+    width: 20%;
+    margin-left: 0%;
+    height: 200px;
+}
+.column2{
+    margin-left: 20%;
+    margin-top: 2%;
 }

@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Login from "./components/Login" 
 import Main from "./components/Main";
 import Search from "./components/Search";
+import Upload from "./components/Upload";
 import {
   BrowserRouter,
   Routes,
@@ -18,9 +19,9 @@ function App() {
       <Route path="/" element={<Main />} />
       <Route path="/search" element={<Search />} />
       <Route path="/login" element={<Login />} />
-
+      <Route path="/upload" element={<Upload />} />
     </Routes>
-  </BrowserRouter>
+    </BrowserRouter>
     </div>
   );
 }
